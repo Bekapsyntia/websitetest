@@ -1,0 +1,18 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeatt;
+    background-attachment: fixed;
+}
+
+button{
+    background-color: rgba(0, 0, 255, 0.103);
+    border-color:rgba(0, 0, 255, 0.103) ;
+    color: white;
+    display:inline-block;
+    margin-bottom: 20px;
+    width: 65px;
+    border-radius: 5px;
+}
+a{
+    display: flex;
+}
