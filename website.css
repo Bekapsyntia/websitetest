@@ -77,3 +77,10 @@ button {
     text-align: center;
     color: beige;
 }
+
+.dash{
+    text-align: center;
+    margin: 300px;
+    font-size: 60px;
+    color: rgba(241, 226, 226, 0.959);
+}
