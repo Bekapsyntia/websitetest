@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK10nMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="website.css">
+</head>
+<body background="bgimage (1).jpg">
+    <div class="container">
+            <h1 class="title">Register</h1>
+            <form action="login.html" method="post" id="registerForm">
+                <div class="registerGroup">
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="enter your name" required><br>
+                </div>
+                <div class="registerGroup">
+                    <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="enter your email" required><br>
+                </div>
+                <div class="registerGroup">
+                    <label for="password"> </label>
+                    <input type="password" id="password" placeholder="enter your password" minlength="8" required>
+                    <br>
+                </div>
+                <div class="registerGroup">
+                    <label for="password"> </label>
+                    <input type="password" id="password" placeholder="Confirm password" minlength="8" required>
+                    <br>
+                </div>
+                <div class="check">
+                    
+                   <span> <input type="checkbox"><label for=""></label></span>I accept all the terms and conditions</label><br>
+                </div>
+                <div class="links">
+                    <a href="login.html"><button type="button">Register</button></a>
+                
+               <p>Already have an account?<a href="login.html">Login now</a></p> 
+            </div>
+            </form>
+
+
+    </div>
+    <script src="website.js"></script>
+</body>
+</html>

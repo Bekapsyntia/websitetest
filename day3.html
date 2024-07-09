@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: rgba(81, 192, 236, 0.884);
+        }
+            body{
+                background-color: rgb(20, 4, 92);
+            }
+            th{
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                font-size: larger;
+            }
+         table{
+            border-color: blue;
+         } 
+         tr{
+            color:white;
+         }
+         form{
+            padding-top: 35px;
+         }
+         label{
+            color: white;
+         }
+         #submit{
+            background-color: blue;
+            color: white;
+            border-color: blue;
+            border-radius: 10%
+         }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>A Table of 5 Customers Purchasing Some Electronic Items</h1>
+ <table border="1" cellspacing="0.5px" cellpadding="20px">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Goods</th>
+            <th>Quatity</th>
+            <th>prices(frs)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>BOB</td>
+            <td>Mouse</td>
+            <td>10</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td>TONY</td>
+            <td>Keyboards</td>
+            <td>05</td>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <td>FANY</td>
+            <td>Speakers</td>
+            <td>02</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>YOUD</td>
+            <td>RAM Sticks</td>
+            <td>04</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>LOLITA</td>
+            <td>Hard drives</td>
+            <td>02</td>
+            <td>20000</td>
+        </tr>
+    </tbody>
+ </table>
+</div>
+<div>   
+ <form action="" method="post">
+    <label for="">Goods:  <input type="text" placeholder="enter good bought"></label><br>
+    <label for="">Quantity: <input type="text" placeholder="quantity of goods bouught"></label><br>
+    <label for="submit"><input type="submit" id="submit"></label>
+</form>
+</div>
+</body>
+</html>

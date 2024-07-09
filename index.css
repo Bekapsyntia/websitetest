@@ -1,0 +1,20 @@
+h1{
+    color: aqua;
+}
+body{
+    background-color: rgb(5, 5, 75);
+    color: white;
+}
+#submit{
+    background-color: blue;
+    color: whitesmoke;
+    border-color: blue;
+    width: 70px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+}
+#you{
+    max-width: 1500px;
+}
